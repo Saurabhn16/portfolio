@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guider bhiya/ Mentor</title>
+    <!-- 
+    - favicon
+  -->
+  <link rel=" icon" href="assets/images/logo.jpg" >
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/studygirl.avif">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+  <style>
+   .containerr {
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.sub-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teams {
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.teams:hover {
+    background: #ddd;
+    border-radius: 12px;
+}
+
+.teams img {
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.desig {
+    font-style: italic;
+    color: #888;
+}
+
+.about {
+
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #4e4e4e;
+}
+
+.social-links {
+    margin: 14px;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+
+.social-links a:hover {
+    transform: scale(1.5);
+}
+
+.social-links a i {
+    color:hsl(42, 94%, 55%);
+}
+
+@media screen and (max-width: 600px) {
+    .teams {
+        max-width: 100%;
+    }
+}
+  </style>
+</head>
+<body id="top">
+
+  
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" id="try" syle =" padding: 50px 50px 50px 50px;margin: 50px 50px 50px 50px; display:block"class="btn has-before">
+        <span class="span" style="color: black;">Saurabh Nagpure</span>
+       
+    </a>
+      
+    <nav class="navbar" data-navbar>
+      <div class="wrapper">
+       
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+      </div>
+      <ul class="navbar-list">
+          <li class="navbar-item">
+              <a href="index.html" class="navbar-link" data-nav-link style="font-size: larger;"> Home</a>
+          </li>
+       
+          <li class="navbar-item">
+              <a href="ourmentor.html" class="navbar-link" data-nav-link style="font-size: larger;">DSA</a>
+          </li>
+          <li class="navbar-item">
+              <a href="program.html" class="navbar-link" data-nav-link style="font-size: larger;"> Projects</a>
+          </li>
+         
+      </ul>
+  </nav>
+        <div class="header-actions">
+      
+          <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+              <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+      </div>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+  </header>
+  <div class="">
+    <h1>Projects</h1>
+    <p>Explore some of the projects I have worked on</p>
+</div>
+
+<div class="pricing-table" style="margin: 50px 50px 50px 50px; display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <div class="card" style="width: 450px; background-color: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease, box-shadow 0.3s ease; border: 3px solid hsl(42, 94%, 55%); margin-bottom: 30px;">
+    <div class="card-image" style="border-top-left-radius: 15px; border-top-right-radius: 15px; overflow: hidden;">
+      <img src="https://static.wixstatic.com/media/85b35c_bb81e7cee1454cbca048f9ca5d280163~mv2.png" alt="JeevanBandhu Website" style="width: 100%; height: 200px; object-fit: cover;">
+    </div>
+    <div class="card-content" style="padding: 20px;">
+      <h3 class="card-title" style="margin-top: 0; font-size: 24px; color: #333; text-align: center;">LeetCode</h3>
+      <p style="font-size: 16px; line-height: 1.6; color: #666; text-align: center;"><b> Level : Knight Badge(1894 Max)<br> Contest: 25    <br> Questions : 740</b>
+      </p>
+      <div class="icons" style="display: flex; justify-content: center; margin-top: 20px;">
+        <a href="https://leetcode.com/u/Saurabh_1602/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #333; margin: 0 10px; font-size: 20px;"><i class="fa fa-link" aria-hidden="true" style="transition: color 0.3s ease;"></i></a>
+           </div>
+    </div>
+  </div>
+
+
+  <div class="card" style="width: 450px; background-color: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease, box-shadow 0.3s ease; border: 3px solid hsl(42, 94%, 55%); margin-bottom: 30px;">
+    <div class="card-image" style="border-top-left-radius: 15px; border-top-right-radius: 15px; overflow: hidden;">
+      <img src="https://static.wixstatic.com/media/85b35c_1bbedc4ed041479da84661aca5635e2e~mv2.png" alt="CodeAbly Platform"style="width: 100%; height: 200px; object-fit: cover;">
+    </div>
+    <div className="card-content" style=" padding: 20px ">
+      <h3 class="card-title" style="margin-top: 0; font-size: 24px; color: #333; text-align: center;">CodeChef</h3>
+      <p style="font-size: 16px; line-height: 1.6; color: #666; text-align: center;"> <b> Level : 3 Star (1722 Max)<br> Contest : 15 <br> Question : 108</b></p>
+    
+      <div class="icons" style="display: flex; justify-content: center; margin-top: 20px;">
+        <a href="https://www.codechef.com/users/saurabh1602002" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #333; margin: 0 10px; font-size: 20px;"><i class="fa fa-link" aria-hidden="true" style="transition: color 0.3s ease;"></i></a>
+
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="card" style="width: 450px; background-color: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease, box-shadow 0.3s ease; border: 3px solid hsl(42, 94%, 55%); margin-bottom: 30px;">
+    <div class="card-image" style="border-top-left-radius: 15px; border-top-right-radius: 15px; overflow: hidden;">
+      <img src="https://static.wixstatic.com/media/85b35c_57cb1d08cc474dc5b6452bec17ee7bc5~mv2.png" alt="NewsMantra Website" style="width: 100%; height: 200px; object-fit: cover;">
+    </div>
+    <div className="card-content" style=" padding: 20px ">
+      <h3 class="card-title" style="margin-top: 0; font-size: 24px; color: #333; text-align: center;">CodeForces</h3>
+      <p style="font-size: 16px; line-height: 1.6; color: #666; text-align: center;">
+        <b> Level : Pupil(1294) <br> Contest : 15 <br> Question : 108</b></p>
+      </p>
+  
+      <div class="icons" style="display: flex; justify-content: center; margin-top: 20px;">
+        <a href="https://codeforces.com/profile/Saurabh_1610" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #333; margin: 0 10px; font-size: 20px;"><i class="fa fa-link" aria-hidden="true" style="transition: color 0.3s ease;"></i></a>
+           </div>
+    </div>
+  </div>
+  
+ 
+ 
+  
+  
+ 
+    <!-- Repeat the above card structure for additional cards -->
+  </div>
+<img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
+ <!-- 
+    - #FOOTER
+  -->
+
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section" style="margin-bottom: 10px;">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+     
+
+          <div class="wrapper" style="margin-top: 20px;">
+            <span class="span">Add:</span>
+
+            <address class="address">Gondia ,MH ,India </address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+011234567890" class="footer-link">+91 9970219089</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@eduweb.com" class="footer-link">nagpuresaurabh1610@gmail.com</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title"> Platform</p>
+          </li>
+
+          <li>
+            <a href="/" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="/projects" class="footer-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="/Dsa" class="footer-link">Dsa</a>
+          </li>
+
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li> 
+        
+          <li>
+            <a href="  https://www.linkedin.com/in/saurabh-nagpure-051281229/" class="footer-link">Linkedin</a>
+          </li><li>
+            <a href="https://leetcode.com/u/Saurabh_1602/" class="footer-link">LeetCode</a>
+          </li>
+
+          <li>
+            <a href="https://www.codechef.com/users/saurabh1602002" class="footer-link">Codechef</a>
+          </li>
+
+          <li>
+            <a href="https://codeforces.com/profile/Saurabh_1610" class="footer-link">Codeforces</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Saurabhn16" class="footer-link">Githubs</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Contacts</p>
+
+          <p class="footer-list-text">
+            Enter your email address to register to our newsletter subscription
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span" style="color: black;">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true" style="color: black;"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/saurabh-nagpure-051281229/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/Saurabhn16" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2024 All Rights Reserved by <a href="#" class="copyright-link">Saurabh Nagpure</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true" style="color: black;"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
